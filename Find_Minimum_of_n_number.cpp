@@ -1,12 +1,12 @@
-#include<iostream>
+#include<stdio.h>
 using namespace std;
 int main(){
 	int n,i,min;
-	cin>>n;
+	scanf("%d",&n);
 	int a[n];
 	for(i=0;i<n;i++)
 	{
-		cin>>a[i];
+	scanf("%d",&a[i]);
 	}
 	min=a[0];
 	for(i=0;i<n;i++)
@@ -16,6 +16,6 @@ int main(){
 			min=a[i];
 		}
 	}
-	cout<<min;
+	printf("%d",min);
 	
 }

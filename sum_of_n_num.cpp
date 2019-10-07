@@ -1,18 +1,17 @@
-#include<iostream>
-using namespace std;
+#include<stdio.h>
 int main()
 {
 	int n,i,j,sum=0;
-	cin>>n;
+	scanf("%d",&n);
 	int a[n];
 	for(i=0;i<n;i++)
 	{
-		cin>>a[i];
+		scanf("%d",&a[i]);
 	}
 	for(i=0;i<n;i++)
 	{
 		sum=sum+a[i];
 	}
-	cout<<sum;
+	printf("%d",sum);
 	return 0;
 }

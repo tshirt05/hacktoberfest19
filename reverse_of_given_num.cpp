@@ -1,9 +1,8 @@
-#include<iostream>
-using namespace std;
+#include<stdio.h>
 int main()
 {
 	int p,i,j,k=0;
-	cin>>i;
+	scanf("%d",&i);
 	p=i;
 	while(i!=0)
 	{
@@ -11,5 +10,5 @@ int main()
 	  k=k*10+j;
 	  i=i/10;
 	}
-	cout<<k;
+	printf("%d",k);
 }
